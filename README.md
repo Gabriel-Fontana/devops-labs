@@ -1,10 +1,6 @@
 # 🚀 DevOps Laboratory v1.0 — Infrastructure & Automation
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=2496ed&height=200&section=header&text=Infrastructure%20as%20Code&fontSize=50&fontColor=ffffff" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Docker-Container_Active-2496ed?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
