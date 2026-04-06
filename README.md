@@ -1,59 +1,55 @@
-# 🚀 [DEVOPS_LAB_V1.0] - ROOT@GABRIEL-FONTANA
+# 🚀 DevOps Laboratory v1.0 — Infrastructure & Automation
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=glitch&color=00ff41&height=200&section=header&text=System%20Infrastructure&fontSize=50&animation=twinkling&fontColor=0d1117" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=2496ed&height=200&section=header&text=Infrastructure%20as%20Code&fontSize=50&fontColor=ffffff" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CONTAINER-ACTIVE-00ff41?style=for-the-badge&logo=docker&logoColor=0d1117" />
-  <img src="https://img.shields.io/badge/SERVER-NGINX-00ff41?style=for-the-badge&logo=nginx&logoColor=0d1117" />
-  <img src="https://img.shields.io/badge/KERNEL-BASH-00ff41?style=for-the-badge&logo=gnu-bash&logoColor=0d1117" />
-  <img src="https://img.shields.io/badge/GIT-PUSHED-00ff41?style=for-the-badge&logo=git&logoColor=0d1117" />
+  <img src="https://img.shields.io/badge/Docker-Container_Active-2496ed?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-Verified-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-> **WARNING:** Unauthorized access detected. Managing infrastructure via Docker Engine... [OK]
+## 📌 Visão Geral do Projeto
+Este repositório documenta a implementação de um laboratório de infraestrutura moderna. O foco principal é a **containerização** de serviços e a **automação de rotinas** operacionais, utilizando tecnologias líderes de mercado para garantir escalabilidade e isolamento de processos.
 
-## ⚡ [SYSTEM_OVERVIEW]
-Este é o meu laboratório de alta performance focado em **DevOps** e **SRE**. Aqui, transformo servidores brutos em containers otimizados e automatizo o caos através de Shell Scripting.
-
-| Módulo | Função | Status |
+| Componente | Especialidade | Status do Serviço |
 | :--- | :--- | :--- |
-| **DOCKER** | Isolamento de Kernel & Containers | 🟢 Online |
-| **NGINX** | Proxy Reverso & Web Serving | 🟢 Online |
-| **BASH** | Scripts de Automação & Backup | 🟢 Ready |
+| **Docker** | Virtualização de Nível de SO | 🟢 Operacional |
+| **Nginx** | Servidor Web & Proxy Reverso | 🟢 Ativo |
+| **Shell Script** | Automação de Tarefas Críticas | 🟢 Pronto |
 
 ---
 
-## 🛠️ [TECHNICAL_STACK]
+## 🛠️ Stack Tecnológica
 
-### 🧊 Virtualization & Web
-* **Engine:** Docker (Alpine Linux Base)
-* **Web Layer:** Nginx High-Performance
-* **Logic:** JavaScript Terminal Simulation
+### Infraestrutura e Virtualização
+* **Docker Engine:** Utilização de imagens leves baseadas em Alpine Linux para otimização de recursos.
+* **Nginx:** Implementação de servidor de alta performance para entrega de conteúdo estático.
 
-### ⌨️ Automation & Logic
-* **Scripting:** GNU Bash para rotinas de backend.
-* **VCS:** Git para controle de versão profissional.
+### Automação e Gerenciamento
+* **Bash Scripting:** Desenvolvimento de scripts para automação de backups e monitoramento de sistema.
+* **Git/GitHub:** Fluxo de trabalho baseado em ramificações (branching) e controle de versão profissional.
 
 ---
 
-## 📸 [TERMINAL_PREVIEW]
-
-Abaixo, a evidência visual da interface customizada rodando dentro do container:
+## 📸 Demonstração do Ambiente
+Abaixo, a interface de monitoramento rodando via container, validando a integração entre o servidor web e o isolamento de rede do Docker:
 
 <p align="center">
-  <img src="./assets/devops-labs.jpg" width="850" style="border: 2px solid #00ff41; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);" />
+  <img src="./assets/devops-labs.jpg" width="850" style="border: 1px solid #2496ed; border-radius: 8px;" />
   <br>
-  <kbd>LOG: User Gabriel Fontana authenticated via Root Access.</kbd>
+  <code>Deploy Status: Success | Environment: Production Simulation</code>
 </p>
 
 ---
 
-## 🚀 [BOOT_SEQUENCE]
+## 🚀 Guia de Implantação (Deployment)
 
-Siga os comandos abaixo para replicar o ambiente:
+Siga as etapas técnicas para replicar este ambiente localmente:
 
-### 1. Estabelecer Conexão
+### 1. Provisionamento do Código
 ```bash
 git clone [https://github.com/Gabriel-Fontana/devops-labs.git](https://github.com/Gabriel-Fontana/devops-labs.git)
 cd devops-labs
